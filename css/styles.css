@@ -2,6 +2,11 @@ h1{text-align: center;}
 p{text-align: center;}
 h2{text-align: center;}
 
-#logo{
- image-align:center;
+.jumbotron{
+  background-image: url('../images/background/background2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center
 }
