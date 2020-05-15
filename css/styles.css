@@ -19,3 +19,12 @@ h2{text-align: center;}
   color: white;
   text-align: center
 }
+
+.card-body{
+  background-image: url('../images/background/background1.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+}
