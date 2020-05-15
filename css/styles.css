@@ -18,7 +18,23 @@ h2{text-align: center;}
   background-repeat: no-repeat;
   color: white;
   text-align: center
+
 }
+
+#portfolio{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  margin-right: 12%;
+  margin-left: 12%;
+  padding-bottom: 40px;
+}
+
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 
 .card-body{
   background-image: url('../images/background/background1.jpg');
@@ -32,7 +48,12 @@ h2{text-align: center;}
 .headings{
   padding-bottom: 38px;
   text-align: center;
-    padding-top: 40px;}
+    padding-top: 40px;
+
+  }
+  #design-image{text-align: center;}
+  #development-image{text-align: center;}
+  #product-image{text-align: center;}
 
 #icons{text-align: center;
 padding-top: 30px;
