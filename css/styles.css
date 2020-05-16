@@ -1,6 +1,4 @@
-h1{text-align: center;}
-p{text-align: center;}
-h2{text-align: center;}
+
 
 .jumbotron{
   background-image: url('../images/background/background2.jpg');
@@ -11,14 +9,40 @@ h2{text-align: center;}
   text-align: center
 }
 
+.container1{text-align: center;
+}
+
+.about{
+  padding-bottom: 30px;
+  padding-top:40px;
+  }
+
 .services{
   background-image: url('../images/background/background3.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  text-align: center
+  padding-bottom: 30px;
+  padding-top:40px;
+}
 
+
+.container2{text-align: center;
+    padding-top: 40px;
+}
+
+.headings{
+  padding-bottom: 38px;
+}
+  #design-image{text-align: center;}
+  #development-image{text-align: center;}
+  #product-image{text-align: center;}
+
+
+
+
+.container3{text-align: center;
 }
 
 #portfolio{
@@ -35,7 +59,8 @@ h2{text-align: center;}
   max-height: 100%;
 }
 
-
+.card{text-align: center;
+}
 .card-body{
   background-image: url('../images/background/background1.jpg');
   background-position: center center;
@@ -45,15 +70,26 @@ h2{text-align: center;}
 
 }
 
-.headings{
-  padding-bottom: 38px;
-  text-align: center;
-    padding-top: 40px;
+input[type=text],input[type=email],#comment{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: 'Copse', serif;
+}
+.form-control::-webkit-input-placeholder {
+  color: white; }
 
+  #MERGE1{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
   }
-  #design-image{text-align: center;}
-  #development-image{text-align: center;}
-  #product-image{text-align: center;}
+  #MERGE0{
+    width: 30%;
+  }
+  #comment{
+    margin-left: 20%;
+    width: 60%;}
 
 #icons{text-align: center;
 padding-top: 30px;

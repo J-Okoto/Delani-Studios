@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Delani Studios</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link href="css/styles.css"rel="stylesheet"type="text/css">
@@ -12,6 +13,10 @@
          <h1>WELCOME</h1>
            <h1> TO DELANI STUDIO</h1>
            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+           <div class="mouse animated">
+            <image src="images/mouse_click.png">
+             <P>MOUSE</p>
+            </div>
     </div>
 
   <div class="container1">
@@ -78,7 +83,7 @@
                 <div class="row" id="portfolio">
                     <div class="col-md-3" id="work1">
                       <p>Black Studio</p>
-                      <image src="images/portfolio/work1.jpg">
+                      <image src="images/portfolio/work1.jpg"class="image">
                     </div>
 
                       <div class="col-md-3" id="work2">
@@ -139,7 +144,7 @@
                              <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
                           </div>
 
-                           <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+                           <button onclick="submit()" class="btn btn-primary col-md-1">Submit</button>
                    </form>
               </div>
 
@@ -163,6 +168,6 @@
 
       <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="js/scripts.js"</script>
+      <script src="js/scripts.js" </script>
   </body>
 </html>
