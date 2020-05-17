@@ -95,3 +95,5 @@ input[type=text],input[type=email],#comment{
 padding-top: 30px;
 font-size: 30px;
 }
+
+#overlay1{display: none;}

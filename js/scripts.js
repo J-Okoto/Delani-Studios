@@ -14,12 +14,7 @@ $("form#form34A").submit(function(event) {
   });
 
 });
-  $(document).ready(function(){
-  $(".mouse-click").hover(function(){
-    $("#mouse-click").bounce();
-  });
-
-  });
+  
 
   $(document).ready(function(){
     $("#development-image").click(function(){
@@ -53,3 +48,10 @@ $("form#form34A").submit(function(event) {
       $("#product-image").slideDown('1500');
     });
   });
+
+  $(document).ready(function(){
+    $("#work1").hover(function(){
+      $("#overlay1").show();
+      });
+
+});
