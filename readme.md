@@ -9,7 +9,7 @@ J-Okoto
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
 
 ## Screenshot
-![Alt text](relative/home/joe/Desktop/Delani-Studios/images/delani.png?raw=true "Title")
+![Alt text](relative/images/delani.png?raw=true "Title")
 
 
 ## Live Page
