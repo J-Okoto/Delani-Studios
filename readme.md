@@ -1,53 +1,48 @@
 # Delani-Studios
 
-##Author
+## Author
+
 J-Okoto
 
-##Description
+## Description
+
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
 
-##Screenshot
+## Screenshot
+![Alt text](relative/home/joe/Desktop/Delani-Studios/images/delani.png?raw=true "Title")
 
 
-##Live Page
+## Live Page
+
 https://J-Okoto.github.io/Delani-Studios
 
-##Installation / Setup instruction
+## Installation / Setup instruction
+
 Open Terminal {Ctrl+Alt+T}
-
 git clone https://github.com/J-Okoto/Delani-Studios.git
-
 cd Delani-Studios
-
 code . or atom . depending on the text editor of your choice.
 
-##Technologies Used
+## Technologies Used
+
 HTML5
 CSS
 Bootstrap
 jQuery
 markdown
 
-##BDD
-Behaviour	Input
 
-Enter your name	e.g J Okoto
-Enter your Email Address e.g	okotojr@gmail.com
-Enter your message or comment	"I would love to work with you"
-Press Submit
+## Known Bugs
 
-Behavior Output
-
-Pop up "J.Okoto , we have received your message. Thank you for reaching out to us.
-
-##Known Bugs
 The site is not responsive enough for some devices.
 mail chimp API does not function properly.
 
-##Contact Information
+## Contact Information
+
 If you have any question or contributions, please email me at [okotojr@gmail.com]
 
-###License
+### License
+
 MIT License:
 Copyright (c) 2020 Delani Studios
 
